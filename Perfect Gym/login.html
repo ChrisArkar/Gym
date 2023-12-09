@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TMC Tennis Club</title>
+    <link rel="stylesheet" type="text/css" href="TStyle.css" />
+</head>
+
+<body class="home">
+    <header>
+        <center>
+          <img src="GYm logo.png" alt="Gym Logo" width="370px" height="150px">
+        </center>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="timetable.html">Gym Classes</a>
+                <a href="registration.php">Become a Member</a>
+                <a href="login.html" class="active">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="entries">
+        <div class="h1">Enter username and password</div>
+        <center>
+            <form name="login" action="Log_in.php" method="post">
+                <br>
+                <p>Username : <input type="text" name="username" required /></p>
+                <p>Password : <input type="password" name="password" required /></p>
+                <p>
+                    <input type="submit" value="Login" />
+                    <input type="reset" value="Clear" />
+                </p>
+            </form>
+        </center>
+    </section>
+</body>
+
+</html>
